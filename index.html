@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>All stores!</title>
+</head>
+<body>
+  <div class="header">
+    <h1>All Stores</h1>
+    <h4>These are all the stores we work with</h4>
+  </div>
+  <!--This is our navigation section for user to choose
+      between the selections-->
+  <div class="nav-bar">
+    <div class="electronics" id="select-topic">
+      <button class="tablink" onclick="openPage('electronics', this)">Electronics</button>
+    </div> 
+    <div class="clothing" id="select-topic">
+      <button class="tablink" onclick="openPage('clothing', this)">Clothing</button>
+    </div>
+    <div class="office" id="select-topic">
+      <span id="tab-3"onClick="JavaScript:selectTab(3);">Office</span>
+    </div>
+    <div class="home" id="select-topic">
+      <span id="tab-4"onClick="JavaScript:selectTab(4);">Home tools & improvement</span>
+    </div>
+  </div>
+  <!-- This is our container to house most all of the page -->
+  <div class="body">
+    <!-- What to sort by section -->
+    <div class="sort-by">
+      <h4>Sort by:</h4>
+      <div class="store-title" id="sort">
+        <a href="/">Store Title</a>
+      </div>
+      <div class="cash-back" id="sort">
+        <a href="/">Cash Back</a>
+      </div>
+    </div>
+    <div class="cards-container">
+
+      <!--Clothing Container to hold all of the individule store cards -->
+      <div class="cards active" id="electronics" >
+        <!-- individule store card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/el.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Electronics store 3</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>2% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/el2.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Electronics store 5</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>3% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/el3.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Electronics store 1</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back">
+            <p>1% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/el4.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Electronics store 4</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>2% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+         <div class="card">
+          <div class="card-image">
+            <img src="images/el5.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Electronics store 6</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>2% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+         <div class="card">
+          <div class="card-image">
+            <img src="images/el6.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Electronics store 2</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>2% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--Clothing Container to hold all of the individule store cards -->
+      <div class="cards" id="clothing" >
+        <!-- individule store card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/th.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Clothing store 3</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>2% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/th2.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Clothing store 5</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>3% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/th3.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Clothing store 1</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back">
+            <p>1% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/th4.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Clothing store 4</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>2% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+         <div class="card">
+          <div class="card-image">
+            <img src="images/th5.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Clothing store 6</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>2% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <!-- individule store card -->
+         <div class="card">
+          <div class="card-image">
+            <img src="images/th.jpg" alt="clothing 1" srcset="">
+          </div>
+          <div class="card-title">
+            <h2>Clothing store 2</h2>
+          </div>
+          <div class="card-description">
+            <p>This is our wonderful world of amazing things to by</p>
+          </div>
+          <div class="card-cash-back" id="cash-back">
+            <p>2% cash back</p>
+          </div>
+          <div class="rating">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/star.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+            <img src="images/emptystar.jpg" alt="" srcset="">
+          </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

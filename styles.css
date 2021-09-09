@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(80, 78, 78);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  margin: 50px;
+}
+
+.sort-by {
+  margin-right: 50px;
+}
+/*
+-------------------------------------------------
+Styling for the store cards 
+-------------------------------------------------
+*/
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  height: 450px;
+  border-radius: 15px;
+  transition: 180ms ease;
+}
+
+.card-title, .card-description, .card-cash-back {
+  margin: 0 20px;
+}
+
+.card:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 180ms ease;
+    cursor: pointer;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+
+}
+.card-image img {
+  width: 320px;  
+  height: 250px;
+  margin-top: 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+
+}
+
+.rating > img {
+  width: 35px;
+  margin-bottom: 5px;
+}
+/*
+----------------------------------------------------
+Sturctural id's 
+----------------------------------------------------
+*/
+
+#select-topic {
+  width: 400px;
+  border: 1px solid black;
+  padding: 5px 25px 5px 25px;
+  transition: 180ms ease;
+}
+
+#select-topic:hover {
+  transform: scale(1.05);
+  transition: 180ms ease;
+  
+}
+
+#sort {
+  border: 1px solid black;
+  width: 100px;
+  margin-bottom: 1px;
+  padding: 5px 15px 5px 15px;
+  transition: 180ms ease;
+}
+
+#sort:hover {
+  transform: scale(1.05);
+  transition: 180ms ease;
+}
